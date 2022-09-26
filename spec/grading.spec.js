@@ -66,12 +66,12 @@ describe ("Grading Tests: ", function () {
 
    it("CSS funParagraph class is green", function() {
       let funParagraphElement = container.getElementById("testP");
-      expect(window.getComputedStyle(funParagraphElement).color).toEqual("green");
+      expect(window.getComputedStyle(funParagraphElement).color).toEqual("rgb(130, 149, 75)");
    })
 
    it("CSS mainHeading id is red", function() {
       let headingElement = container.getElementById("mainHeading");
-      expect(window.getComputedStyle(headingElement).color).toEqual("red");
+      expect(window.getComputedStyle(headingElement).color).toEqual("rgb(249, 102, 102)");
    })
 
    it("HTML includes HTML entities", function() {
